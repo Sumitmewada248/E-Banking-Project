@@ -11,6 +11,7 @@ const costumerSchema=new mongoose.Schema({
     pincode:{type:String,required:true},
     accountType:{type:String},
     createdAt: { type: Date, default: Date.now},
+    password:{type:String,required:true}
 
 })
 
